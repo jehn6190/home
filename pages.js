@@ -1,6 +1,6 @@
 const ghpages = require("gh-pages");
 const pathname = `${__dirname}/build`;
-const repoURL = " https://jehn6190.github.io/aws-Terraform-nginx/";
+const repoURL = "https://jehn6190.github.io/aws-Terraform-nginx/";
 
 ghpages.publish(
   pathname,
